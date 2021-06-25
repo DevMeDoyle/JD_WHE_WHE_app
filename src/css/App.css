@@ -1,0 +1,70 @@
+body{
+  background-color: aquamarine;
+}
+
+h1
+{
+  font-family: fantasy;
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+.numpad{
+
+ 
+
+  font-size:20px;
+  font-family: Arial;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-right:15px;
+  margin-bottom:15px;
+  text-transform:uppercase;
+
+}
+
+/*.number_pad
+{
+  background-image: url();
+}
+
+*/
+
+.console{
+
+
+  margin-top: 10;
+  display: block;
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  background: rgba(0,0,0,0.15);
+  border:none;
+  border-radius: 10px;
+  outline: none;
+  cursor: default;
+  padding: 100px 10px;
+  
+
+}
+
+.format
+{
+  display:grid;
+  grid-template-columns: 30% 70%;
+
+}
