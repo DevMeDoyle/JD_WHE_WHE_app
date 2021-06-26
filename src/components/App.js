@@ -3,6 +3,9 @@ import React from "react";
 import "../image/lottery.png";
 import Buttons from './Buttons';
 import Console from './Console';
+import Cash from './Cash';
+import '../css/Buttonstyle.css';
+
 
 
 const App =()=>{
@@ -23,7 +26,11 @@ return (
   <div className="format">
   <div><Buttons/></div>
   <div><Console/></div>
+  <div><Cash/></div>
+
   </div>
+
+
   </>
 )
 
