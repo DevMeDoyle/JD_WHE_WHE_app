@@ -57,3 +57,78 @@
     cursor: pointer;
     margin: 5px;
   }
+
+
+
+/* Cash Pad Bustton CSS .cashpads */
+
+
+.cash_pad
+{
+  font-size: 70%;
+  padding-right: 300px;
+}
+  
+  .cashpads,
+  .cashpads::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .cashpads{
+   
+    background: none;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color:black;
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5px auto;
+    padding: 1em 3em;
+    position: relative;
+    text-transform: uppercase;
+    background-color: yellow;
+
+  }
+  .cashpads::before,
+  .cashpads::after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    z-index: -1;
+  }
+  .cashpads:hover {
+    color: #29f2e4;
+  }
+  .cashpads::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .cashpads:hover:after {
+    height: 100%;
+  }
+  .cashpads::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+  }
+  .cashpads:hover:after {
+    width: 100%;
+  }
+  .cashpads::after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  .cashpads:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }

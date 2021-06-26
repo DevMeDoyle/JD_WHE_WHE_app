@@ -21,7 +21,7 @@ return (
     
   </div>
 
-  <div> <h1>Lets Play</h1> </div>
+ 
 
   <div className="format">
   <div><Buttons/></div>
